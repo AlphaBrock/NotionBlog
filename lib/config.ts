@@ -60,7 +60,9 @@ export const youtube: string | null = getSiteConfig('youtube', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
 export const newsletter: string | null = getSiteConfig('newsletter', null)
 export const zhihu: string | null = getSiteConfig('zhihu', null)
-
+export const telegram: string | null = getSiteConfig('telegram', null)
+export const wechat: string | null = getSiteConfig('wechat', null)
+export const facebook: string | null = getSiteConfig('facebook', null)
 // default notion values for site-wide consistency (optional; may be overridden on a per-page basis)
 export const defaultPageIcon: string | null = getSiteConfig(
   'defaultPageIcon',

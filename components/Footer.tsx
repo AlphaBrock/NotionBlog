@@ -3,6 +3,9 @@ import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
+import { FaFacebook } from '@react-icons/all-files/fa/FaFacebook'
+import { FaTelegram } from '@react-icons/all-files/fa/FaTelegram'
+import { SiWechat } from '@react-icons/all-files/si/SiWechat'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
@@ -83,6 +86,42 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaGithub />
+          </a>
+        )}
+
+        {config.telegram && (
+          <a
+            className={styles.telegram}
+            href={`https://t.me/${config.telegram}`}
+            title={`Telegram @${config.telegram}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaTelegram />
+          </a>
+        )}
+
+        {config.facebook && (
+          <a
+            className={styles.facebook}
+            href={`https://www.facebook.com/${config.facebook}`}
+            title={`Facebook @${config.facebook}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaFacebook />
+          </a>
+        )}
+
+        {config.wechat && (
+          <a
+            className={styles.wechat}
+            href={`${config.wechat}`}
+            title={`Wechat @${config.wechat}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <SiWechat />
           </a>
         )}
 

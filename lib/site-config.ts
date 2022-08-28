@@ -16,6 +16,9 @@ export interface SiteConfig {
   newsletter?: string
   youtube?: string
   zhihu?: string
+  telegram?: string 
+  facebook?: string
+  wechat?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null

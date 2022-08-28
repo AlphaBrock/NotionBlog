@@ -105,6 +105,18 @@
   color: #ff0000;
 }
 
+.telegram:hover {
+  color: #289fdb;
+}
+
+.facebook:hover {
+  color: #1299f6;
+}
+
+.wechat:hover {
+  color: #30db70;
+}
+
 .linkedin:hover {
   color: #0077b5;
 }

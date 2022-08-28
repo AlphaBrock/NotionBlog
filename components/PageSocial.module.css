@@ -73,10 +73,10 @@
 }
 
 .facebook .actionBgPane {
-  background: #3b5998;
+  background: #1299f6;
 }
 .facebook:hover {
-  border-color: #3b5998;
+  border-color: #1299f6;
 }
 
 .twitter .actionBgPane {
@@ -84,6 +84,20 @@
 }
 .twitter:hover {
   border-color: #2795e9;
+}
+
+.telegram .actionBgPane {
+  background: #289fdb;
+}
+.telegram:hover {
+  border-color: #289fdb;
+}
+
+.wechat .actionBgPane {
+  background: #30db70;
+}
+.wechat:hover {
+  border-color: #30db70;
 }
 
 .linkedin .actionBgPane {
